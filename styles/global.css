@@ -2,17 +2,17 @@
 
 @font-face {
   font-family: "acumin-bold";
-  src: url(../fontes/FontsFree-Net-Acumin-Pro-Bold.ttf) format("opentype");
+  src: url(../fonts/FontsFree-Net-Acumin-Pro-Bold.ttf) format("opentype");
 }
 
 @font-face {
   font-family: "acumin-semi";
-  src: url(../fontes/FontsFree-Net-Acumin-Pro-Semibold.ttf) format("opentype");
+  src: url(../fonts/FontsFree-Net-Acumin-Pro-Semibold.ttf) format("opentype");
 }
 
 @font-face {
   font-family: "acumin";
-  src: url(../fontes/FontsFree-Net-Acumin-Pro-Book.ttf) format("opentype");
+  src: url(../fonts/FontsFree-Net-Acumin-Pro-Book.ttf) format("opentype");
 }
 
 :root {
