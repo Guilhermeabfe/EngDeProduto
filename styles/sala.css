@@ -2,48 +2,46 @@
 
 @import url(./global.css);
 
-
-
-header{
-    background-image: linear-gradient( to bottom, var(--cor2), var(--cor3)); 
-    color: var(--cor5);
-    min-height: 20px;
-    padding-top: 10px;
-    text-align: center;
+header {
+  background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+  color: var(--cor5);
+  min-height: 20px;
+  padding-top: 10px;
+  text-align: center;
 }
 
-h1{
-    font-family: 'acumin-bold';
+h1 {
+  font-family: "acumin-bold";
 }
 
-nav{
-    padding: 10px;
-    background-color: var(--cor3);
+nav {
+  padding: 10px;
+  background-color: var(--cor3);
 }
 
-nav a{
-    text-decoration: none;
-    background-color: var(--cor3);
-    color: var(--cor5);
-    padding: 10px;
-    font-family: 'acumin-semi';
+nav a {
+  text-decoration: none;
+  background-color: var(--cor3);
+  color: var(--cor5);
+  padding: 10px;
+  font-family: "acumin-semi";
 }
 
-nav a:hover{
-    background-color: var(--cor4);
-    color: var(--cor1);
-    border-radius: 5px;
-    transition-duration: 0.6s;
+nav a:hover {
+  background-color: var(--cor4);
+  color: var(--cor1);
+  border-radius: 5px;
+  transition-duration: 0.6s;
 }
 
-main{
-    padding: 10px;
+main {
+  padding: 10px;
 }
 
-main h2{
-    font-family: 'acumin-semi';
+main h2 {
+  font-family: "acumin-semi";
 }
 
-main p{
-    font-family: 'acumin';
+main p {
+  font-family: "acumin";
 }
