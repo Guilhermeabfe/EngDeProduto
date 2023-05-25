@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "email": "mario@gmail.com",
+      "password": "$2a$10$Zn35mQXKJDowZfZ00TffBuVQRB0MEwPi8jI6SFkS8MstI0Xbzvyvi",
+      "id": 1
+    },
+    {
+      "email": "gui@viado.com",
+      "password": "$2a$10$Nn2Pk.ZiVPNbnifPkajhZe3MA71hMRwdxwuZPMOJZW6Qtu4r1o8wS",
+      "id": 2
+    }
+  ]
+}
