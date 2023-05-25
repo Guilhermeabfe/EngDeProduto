@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 @import url(./global.css);
-
 header {
   background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
   color: var(--cor5);
@@ -10,15 +9,10 @@ header {
   text-align: center;
 }
 
-header h1 {
-  font-family: "acumin-bold";
-  font-size: 2em;
-}
-
 nav {
   padding: 10px;
   background-color: var(--cor3);
-  font-family: "acumin-semi";
+  
 }
 
 nav a {
@@ -40,10 +34,3 @@ main {
   padding: 10px;
 }
 
-main h2 {
-  font-family: "acumin-semi";
-}
-
-main p {
-  font-family: "acumin";
-}

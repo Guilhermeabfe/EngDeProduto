@@ -10,10 +10,6 @@ header {
   text-align: center;
 }
 
-h1 {
-  font-family: "acumin-bold";
-}
-
 nav {
   padding: 10px;
   background-color: var(--cor3);
@@ -24,7 +20,7 @@ nav a {
   background-color: var(--cor3);
   color: var(--cor5);
   padding: 10px;
-  font-family: "acumin-semi";
+  
 }
 
 nav a:hover {
@@ -36,14 +32,6 @@ nav a:hover {
 
 main {
   padding: 10px;
-}
-
-main h2 {
-  font-family: "acumin-semi";
-}
-
-main p {
-  font-family: "acumin";
 }
 
 main iframe {
