@@ -1,41 +1,38 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'acumin-bold';
-    src: url(/fontes/FontsFree-Net-Acumin-Pro-Bold.ttf)
-    format('opentype');
+  font-family: "acumin-bold";
+  src: url(/fontes/FontsFree-Net-Acumin-Pro-Bold.ttf) format("opentype");
 }
 
 @font-face {
-    font-family: 'acumin-semi';
-    src: url(/fontes/FontsFree-Net-Acumin-Pro-Semibold.ttf)
-    format('opentype');
+  font-family: "acumin-semi";
+  src: url(/fontes/FontsFree-Net-Acumin-Pro-Semibold.ttf) format("opentype");
 }
 
 @font-face {
-    font-family: 'acumin';
-    src: url(/fontes/FontsFree-Net-Acumin-Pro-Book.ttf)
-    format('opentype');
+  font-family: "acumin";
+  src: url(/fontes/FontsFree-Net-Acumin-Pro-Book.ttf) format("opentype");
 }
 
-:root{
-    --cor0:#F2F2F2;
-    --cor1:#F1F2D8;
-    --cor2:#EEF280;
-    --cor3:#E2F263;
-    --cor4:#818b31;
-    --cor5:#011826;
+:root {
+  --cor0: #f2f2f2;
+  --cor1: #f1f2d8;
+  --cor2: #eef280;
+  --cor3: #e2f263;
+  --cor4: #818b31;
+  --cor5: #011826;
 
-    --fonte-titulo: 'acumin-bold';
-    --fonte-semi: 'acumin-semi';
-    --fonte-regular: 'acumin';
+  --fonte-titulo: "acumin-bold";
+  --fonte-semi: "acumin-semi";
+  --fonte-regular: "acumin";
 }
 
-*{
-    margin: 0px;
-    padding-left: 0px;
+* {
+  margin: 0px;
+  padding-left: 0px;
 }
 
-body{
-    background-color: var(--cor0);
+body {
+  background-color: var(--cor0);
 }
