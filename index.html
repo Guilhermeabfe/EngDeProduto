@@ -4,54 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prodapp</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles/login.css" />
   </head>
   <body>
-    <header>
-      <h1><strong>Prodapp</strong></h1>
-      <p></p>
-    </header>
-    <nav>
-      <a href="./pages/agenda.html" target="_parent">Agenda</a>
-      <a href="./pages/sala.html" target="_parent">Chamada</a>
-      <a href="./pages/chat.html" target="_parent">Chat</a>
-      <a href="./pages/conta.html" target="_parent">Conta</a>
-    </nav>
-    <main>
-      <h2>Olá, seja bem vindo!!</h2>
-      <br />
-      <p>
-        Nós somos a Prodapp, e o nosso maior objetivo é levar a sua empresa a um
-        nível ainda mais alto.
-      </p>
-      <br />
-      <br />
-      <h2>Missão</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, facilis
-        veritatis? Commodi in, vel veritatis expedita aspernatur voluptas
-        aliquam cum perferendis. Reiciendis, soluta eos. Dolorem earum facilis
-        molestias porro repellat.
-      </p>
-      <br />
-      <br />
-      <h2>Visão</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        voluptatem exercitationem omnis, veniam sequi reiciendis ipsam debitis
-        quaerat qui illo rerum nihil nam. Amet odit rerum facilis, officiis
-        nobis dolor!
-      </p>
-      <br />
-      <br />
-      <h2>Valores</h2>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
-        distinctio doloremque quas blanditiis, quae, vitae vel explicabo rerum
-        harum in voluptatem, dolor sunt esse accusantium eos! Corrupti culpa
-        tenetur hic.
-      </p>
-    </main>
+    <div class="main-login">
+      <div class="left-login">
+        <h1>
+          Faça o login, <br />
+          e entre para o nosso time!!
+        </h1>
+        <img
+          src="images/product-iteration-animate (2).svg"
+          class="left-login-image"
+          alt="produção animação"
+        />
+      </div>
+
+      <div class="right-login">
+        <div class="card-login">
+          <h1>LOGIN</h1>
+          <div class="textfield">
+            <label for="usuario">Usuário</label>
+            <input type="text" name="usuario" placeholder="Usuário" />
+          </div>
+          <div class="textfield">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" placeholder="Senha" />
+          </div>
+          <a href="./pages/pag01.html"
+            ><button class="btn-login">Login</button></a
+          >
+        </div>
+      </div>
+    </div>
   </body>
 </html>
