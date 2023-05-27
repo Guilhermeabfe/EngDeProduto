@@ -6,7 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
     <link rel="stylesheet" href="./styles/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js" defer></script>
+    <script type="module" src="./scripts/index.js" defer></script>
   </head>
+
   <body>
     <div class="main-login">
       <div class="left-login">
@@ -21,22 +30,34 @@
         />
       </div>
 
-      <div class="right-login">
-        <div class="card-login">
-          <h1>LOGIN</h1>
-          <div class="textfield">
-            <label for="usuario">Usuário</label>
-            <input type="text" name="usuario" placeholder="Usuário" />
+      <form action="">
+        <div class="right-login">
+          <div class="card-login">
+            <h1>LOGIN</h1>
+            <div class="textfield">
+              <label for="usuario">Usuário</label>
+              <input
+                id="userLogin"
+                type="text"
+                name="usuario"
+                placeholder="Usuário"
+              />
+            </div>
+            <div class="textfield">
+              <label for="senha">Senha</label>
+              <input
+                id="userPassword"
+                type="password"
+                name="senha"
+                placeholder="Senha"
+              />
+            </div>
+            <a href="./pages/pag01.html"
+              ><button type="submit" class="btn-login">Login</button></a
+            >
           </div>
-          <div class="textfield">
-            <label for="senha">Senha</label>
-            <input type="password" name="senha" placeholder="Senha" />
-          </div>
-          <a href="./pages/pag01.html"
-            ><button class="btn-login">Login</button></a
-          >
         </div>
-      </div>
+      </form>
     </div>
   </body>
 </html>
