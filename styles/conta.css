@@ -19,7 +19,6 @@ nav a {
   background-color: var(--cor3);
   color: var(--cor5);
   padding: 10px;
-  
 }
 
 nav a:hover {
@@ -27,4 +26,104 @@ nav a:hover {
   color: var(--cor1);
   border-radius: 5px;
   transition-duration: 0.6s;
+}
+
+main {
+  width: 98vw;
+  height: 98vh;
+  background-color: var(--cor1);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+li {
+  padding-top: 20px;
+}
+
+.main-plans {
+  background-color: var(--cor1);
+  max-width: 980vw;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.plan-basic {
+  width: 80%;
+  height: 75%;
+  box-shadow: 0px 10px 40px #00000057;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-right: 100px;
+}
+
+.basic-top {
+  background-color: var(--cor4);
+  border-radius: 10px 10px 0px 0px;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.basic-bottom {
+  margin-top: 30px;
+}
+
+.plan-medium {
+  width: 80%;
+  height: 75%;
+  box-shadow: 0px 10px 40px #00000057;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.medium-top {
+  background-color: var(--cor2);
+  border-radius: 10px 10px 0px 0px;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.medium-bottom {
+  margin-top: 30px;
+}
+
+.plan-hard {
+  width: 80%;
+  height: 75%;
+  box-shadow: 0px 10px 40px #00000057;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.hard-top {
+  background-color: var(--cor3);
+  border-radius: 10px 10px 0px 0px;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hard-bottom {
+  margin-top: 30px;
 }
