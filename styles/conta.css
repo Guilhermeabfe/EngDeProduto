@@ -55,20 +55,24 @@ li {
   background-color: var(--cor1);
   max-width: 980vw;
   height: 50vh;
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-left: 20px;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 .plan-basic {
-  width: 80%;
+  width: 300px;
   height: 75%;
   box-shadow: 0px 10px 40px #00000057;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  margin-right: 100px;
+  margin-right: 30px;
 }
 
 .basic-top {
@@ -85,7 +89,7 @@ li {
 }
 
 .plan-medium {
-  width: 80%;
+  width: 300px;
   height: 75%;
   box-shadow: 0px 10px 40px #00000057;
   display: flex;
@@ -107,12 +111,13 @@ li {
 }
 
 .plan-hard {
-  width: 80%;
+  width: 300px;
   height: 75%;
   box-shadow: 0px 10px 40px #00000057;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
+  margin-left: 30px;
 }
 
 .hard-top {
@@ -126,4 +131,28 @@ li {
 
 .hard-bottom {
   margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-plans {
+    background-color: var(--cor1);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plan-basic {
+    width: 60vw;
+    margin: auto;
+  }
+
+  .plan-medium {
+    width: 60vw;
+    margin: auto;
+  }
+
+  .plan-hard {
+    width: 60vw;
+    margin: auto;
+  }
 }
