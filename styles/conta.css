@@ -44,7 +44,7 @@ h2 {
 
 ul {
   padding-left: 30px;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 li {
@@ -62,7 +62,7 @@ li {
 
 .plan-basic {
   width: 300px;
-  height: 75%;
+  height: 90%;
   box-shadow: 0px 10px 40px #00000057;
   display: flex;
   flex-direction: column;
@@ -73,19 +73,20 @@ li {
 .basic-top {
   background-color: var(--cor4);
   border-radius: 10px 10px 0px 0px;
-  height: 20%;
+  height: 15%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .basic-bottom {
-  margin-top: 30px;
+  margin-top: 20px;
+  box-sizing: border-box;
 }
 
 .plan-medium {
   width: 300px;
-  height: 75%;
+  height: 90%;
   box-shadow: 0px 10px 40px #00000057;
   display: flex;
   flex-direction: column;
@@ -95,19 +96,19 @@ li {
 .medium-top {
   background-color: var(--cor2);
   border-radius: 10px 10px 0px 0px;
-  height: 20%;
+  height: 15%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .medium-bottom {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .plan-hard {
   width: 300px;
-  height: 75%;
+  height: 90%;
   box-shadow: 0px 10px 40px #00000057;
   display: flex;
   flex-direction: column;
@@ -118,14 +119,14 @@ li {
 .hard-top {
   background-color: var(--cor3);
   border-radius: 10px 10px 0px 0px;
-  height: 20%;
+  height: 15%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .hard-bottom {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 600px) {
