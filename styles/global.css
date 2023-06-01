@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+:root {
+  --cor0: #f2f2f2;
+  --cor1: #f1f2d8;
+  --cor2: #eef280;
+  --cor3: #e2f263;
+  --cor4: #818b31;
+  --cor5: #011826;
+
+  --fonte1: "Inter", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding-left: 0px;
+  font-family: var(--fonte1);
+}
+
+body {
+  background-color: var(--cor0);
+  color: var(--cor5);
+  height: 100%;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+}
