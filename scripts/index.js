@@ -17,7 +17,7 @@ function loginUser(event) {
   instance
     .post("/login", data)
     .then((response) => {
-      window.location.assign("/pages/pag01.html");
+      window.location.assign("./pages/pag01.html");
     })
     .catch((error) => {
       Toast.create("Email ou senha incorreta");
