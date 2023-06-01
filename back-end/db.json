@@ -24,6 +24,11 @@
       "email": "jany@gmail.com",
       "password": "$2a$10$1L16i8Rb1/oskef2R1fg4OCp9Dn.PJMXv/vJrRuutm8/CJJKQTbWG",
       "id": 5
+    },
+    {
+      "email": "glauber@gmail.com",
+      "password": "$2a$10$LnjEr5dygqS2rB.vtxg1OedHgL544uTKglg.TQOcNzo2SdujWvSca",
+      "id": 6
     }
   ]
 }
