@@ -154,6 +154,10 @@ h2 {
   transition: 0.6s;
 }
 
+.item li {
+  list-style-type: "\2714";
+}
+
 @media only screen and (max-width: 600px) {
   main {
     width: 98vw;

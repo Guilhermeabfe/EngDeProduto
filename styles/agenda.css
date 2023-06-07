@@ -30,9 +30,28 @@ nav a:hover {
 }
 
 main {
-  padding: 10px;
+  padding: 10px 0px 0px 10px;
 }
 
-main iframe {
-  align-content: center;
+.ag1 {
+  margin: auto;
+  text-align: center;
+  background-color: var(--cor2);
+  width: 600px;
+  padding: 10px 5px 10px 5px;
+}
+
+main ul {
+  padding-top: 20px;
+}
+
+main li {
+  padding-top: 5px;
+  list-style: inside;
+}
+
+.ag2 {
+  padding: 30px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
 }
