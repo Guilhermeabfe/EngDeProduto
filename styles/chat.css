@@ -19,7 +19,6 @@ nav a {
   background-color: var(--cor3);
   color: var(--cor5);
   padding: 10px;
-  
 }
 
 nav a:hover {
@@ -30,6 +29,28 @@ nav a:hover {
 }
 
 main {
+  color: var(--cor2);
   padding: 10px;
 }
 
+.contt {
+  text-align: center;
+  margin: auto;
+  padding: 10px 0px 10px 0px;
+  background-color: var(--cor5);
+  height: 700px;
+  width: 700px;
+  border-radius: 20px;
+}
+
+.contt h2 {
+  padding-bottom: 5px;
+}
+
+.contt p {
+  padding-bottom: 5px;
+}
+
+.contt img {
+  height: 300px;
+}
