@@ -1,5 +1,5 @@
 export const instance = axios.create({
-  baseURL: "http://localhost:3000/",
+  baseURL: "https://tame-teal-coral-suit.cyclic.app/",
   headers: {
     "Content-Type": "application/json",
   },
