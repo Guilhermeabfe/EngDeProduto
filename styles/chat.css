@@ -7,6 +7,9 @@ header {
   min-height: 20px;
   padding-top: 10px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 nav {
@@ -40,6 +43,7 @@ main {
   background-color: var(--cor5);
   height: 700px;
   width: 700px;
+  max-width: 90%;
   border-radius: 20px;
 }
 
@@ -54,3 +58,5 @@ main {
 .contt img {
   height: 300px;
 }
+
+
