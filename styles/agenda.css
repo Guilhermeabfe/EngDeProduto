@@ -41,6 +41,7 @@ main {
   text-align: center;
   background-color: var(--cor2);
   width: 600px;
+  max-width: 90%;
   padding: 10px 5px 10px 5px;
 }
 
