@@ -15,7 +15,7 @@ function loginUser(event) {
   };
 
   instance
-    .post("/login", data)
+    .post("login", data)
     .then((response) => {
       window.location.assign("./pages/pag01.html");
     })
