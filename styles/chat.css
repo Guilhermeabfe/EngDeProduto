@@ -36,7 +36,7 @@ main {
   padding: 10px;
 }
 
-.contt {
+.container {
   text-align: center;
   margin: auto;
   padding: 10px 0px 10px 0px;
@@ -59,18 +59,19 @@ main {
   height: 300px;
 }
 
-.lgs {
-  text-align: center;
-  margin: auto;
-  padding: 10px 0px 10px 0px;
-  background-color: var(--cor5);
-  height: 700px;
-  width: 700px;
-  max-width: 90%;
-  border-radius: 0px 0px 20px 20px;
+ul a {
+  color: white;
+}
+
+ul a:hover {
+  color: var(--cor3);
 }
 
 .wh {
   height: 40px;
-  padding-left: 10px;
+}
+
+.em {
+  padding-top: 20px;
+  height: 40px;
 }
